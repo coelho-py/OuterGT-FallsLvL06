@@ -11,14 +11,15 @@ body{
 /*Hud BEGIN*/
 .hud{
     background: var(--cor_principal);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-right: 15px;
-    padding-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    padding: 1em;
+    padding-left: 9em;
+    padding-right: 40%;
 }
 
 .HUD-BAR{
     display: flex;
-    align-items: center;        
+    align-items: center;  
     justify-content: space-between;
 }
 
@@ -34,7 +35,7 @@ li{
 }
 
 li a{
-    color: var(--cor_secunda    );
+    color: var(--cor_secunda);
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
@@ -71,7 +72,7 @@ li a{
 .slide {
     width: 20%;
     transition: 2s;
-}
+}<li
 
 .slide img{
     width: 1400px;
