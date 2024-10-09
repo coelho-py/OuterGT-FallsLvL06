@@ -9,6 +9,13 @@ body{
     background-color: var(--cor_fundo);
 }
 
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E32651;
+    margin-top: 164px;
+}
 /*Hud BEGIN*/
 .hud{
     background: var(--cor_principal);
