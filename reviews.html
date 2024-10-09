@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="review.css" media="screen">
+        <script src=""></script>
+        <title>FeedBacks</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="titulo">FeedBacks dos Alunos</h1>
+        </header>
+        <main>
+            <div class="escRev">
+                <h2>Faça seu FeedBack!</h2>
+                <div class="txtRev">
+                    <!-- input nome -->
+                    <label for="input" class="txtInput">Escreva seu nome:</label>
+                    <input type="text" class="nome">
+
+                    <!-- input serie -->
+                    <label for="input" class="txtInput">Informe sua série:</label>
+                    <input type="number" class="serie">
+
+                    <!-- input classe -->
+                    <label for="input" class="txtInput">Informe sua classe:</label>
+                    <input type="text" class="classe">
+
+                    <!-- input review -->
+                    <label for="textarea" class="txtInput">Escreva seu Feedback sobre o curso:</label>
+                    <textarea name="textoReview" id="txtRevi" cols="30" rows="10" class="txtReview" placeholder="Digite seu FeedBack aqui..."></textarea>
+                </div>
+                <div class="botaoEnvio">
+                    <button id="btnEnviar" type="submit">ENVIAR</button>
+                </div>
+            </div>
+            <div class="feedbacks">
+                
+            </div>
+        </main>
+    </body>
+</html>
