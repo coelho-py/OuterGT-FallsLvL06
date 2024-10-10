@@ -1,0 +1,1 @@
+var review = document.getElementById('txtRevi').ariaValueMax;
