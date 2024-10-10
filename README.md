@@ -4,10 +4,11 @@ Não esqueçam de se comunicar e perguntar se alguem está mexendo na mesma page
 para não ter conflitos de Commits!
 
 efeito sanfona:
-
 https://codepen.io/willmarcel/pen/RyKrYY
 
 https://www.w3schools.com/howto/howto_js_accordion.asp
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs
 
 exemplo projeto --> https://imgur.com/lwltMuF.png
 
