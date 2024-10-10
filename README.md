@@ -3,6 +3,9 @@
 Não esqueçam de se comunicar e perguntar se alguem está mexendo na mesma page que você,
 para não ter conflitos de Commits!
 
+-
+POSSIVEIS ELEMENTOS PARA MATERIAS
+
 efeito sanfona:
 https://codepen.io/willmarcel/pen/RyKrYY
 
@@ -15,6 +18,14 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs
 Tabs Mouse:
 https://www.w3schools.com/howto/howto_js_hover_tabs.asp
 
+-
+
+4°Page SOBRE
+
+conheça o time:
+https://www.w3schools.com/howto/howto_css_team.asp
+
+-
 
 exemplo projeto --> https://imgur.com/lwltMuF.png
 
