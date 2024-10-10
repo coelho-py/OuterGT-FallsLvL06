@@ -1,0 +1,75 @@
+:root{
+    --corPrincipal: #1f4dca;
+    --corSecundaria: #76afe4;
+    --corBtn: #808080;
+    --corFundo: lightgray;
+    --corInput: rgb(231, 228, 228);
+}
+
+body{
+    background-color: var(--corFundo);  
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* inicio da div para escrevre os feedbacks */
+
+.escRev{
+    border: 2px solid;
+    border-color: black;
+    height: 500em;
+    width: 75em;
+    margin: 5em 100em 100em 20em;
+}
+
+.txtRev{
+    text-align: center;
+    padding: 15px;
+}
+
+.txtInput{
+    display: flex;
+}
+
+.nome{
+    display: flex;
+    background: var(--corInput);
+}
+
+.serie{
+    display: flex;
+    background: var(--corInput);
+}
+
+.classe{
+    display: flex;
+    background: var(--corInput);
+}
+
+.txtArea{
+    display: inline;
+    margin: 0 0em 0em 40em;
+}
+
+#txtRevi{
+    display: flex;
+    background: var(--corFundo);
+    margin: 0 0em 0em 40em;
+}
+
+.botaoEnvio #btnEnviar{
+    background: var(--corBtn);
+    height: 2em;
+    width: 7em;
+}
+
+/* fim da div de escrever os feedback */
