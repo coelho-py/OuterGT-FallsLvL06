@@ -11,8 +11,8 @@ https://www.w3schools.com/howto/howto_css_topnav_right.asp
 HUD FIXA:
 https://www.w3schools.com/howto/howto_css_fixed_menu.asp
 
-MENU ANIMATION:
-
+MENU Cortina:
+https://www.w3schools.com/howto/howto_js_curtain_menu.asp
 
 -
 POSSIVEIS ELEMENTOS PARA MATERIAS
