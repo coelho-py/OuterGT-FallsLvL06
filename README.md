@@ -3,6 +3,9 @@
 Não esqueçam de se comunicar e perguntar se alguem está mexendo na mesma page que você,
 para não ter conflitos de Commits!
 
+efeito sanfona:
+https://codepen.io/willmarcel/pen/RyKrYY
+
 exemplo projeto --> https://imgur.com/lwltMuF.png
 
 Back = CSS
