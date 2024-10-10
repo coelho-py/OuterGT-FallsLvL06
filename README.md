@@ -25,6 +25,9 @@ https://www.w3schools.com/howto/howto_js_hover_tabs.asp
 conheça o time:
 https://www.w3schools.com/howto/howto_css_team.asp
 
+social:
+https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+
 -
 
 exemplo projeto --> https://imgur.com/lwltMuF.png
