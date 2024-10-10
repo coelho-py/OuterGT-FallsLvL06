@@ -17,9 +17,6 @@ https://www.w3schools.com/howto/howto_js_curtain_menu.asp
 -
 POSSIVEIS ELEMENTOS PARA MATERIAS
 
-efeito sanfona:
-https://codepen.io/willmarcel/pen/RyKrYY
-
 efeito Seção:
 https://www.w3schools.com/howto/howto_js_accordion.asp
 
