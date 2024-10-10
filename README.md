@@ -10,6 +10,9 @@ https://www.w3schools.com/howto/howto_js_accordion.asp
 
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs
 
+https://www.w3schools.com/howto/howto_js_hover_tabs.asp
+
+
 exemplo projeto --> https://imgur.com/lwltMuF.png
 
 Back = CSS
