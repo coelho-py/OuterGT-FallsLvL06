@@ -6,6 +6,7 @@ para não ter conflitos de Commits!
 efeito sanfona:
 
 https://codepen.io/willmarcel/pen/RyKrYY
+
 https://www.w3schools.com/howto/howto_js_accordion.asp
 
 exemplo projeto --> https://imgur.com/lwltMuF.png
