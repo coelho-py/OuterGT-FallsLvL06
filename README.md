@@ -4,6 +4,11 @@ Não esqueçam de se comunicar e perguntar se alguem está mexendo na mesma page
 para não ter conflitos de Commits!
 
 -
+
+HUD NOVA?
+https://www.w3schools.com/howto/howto_css_topnav_right.asp
+
+-
 POSSIVEIS ELEMENTOS PARA MATERIAS
 
 efeito sanfona:
