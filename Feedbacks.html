@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Estilos//Back-Geral.css" media="screen">
+        <link rel="stylesheet" href="../Estilos/Back-Feedbacks.css" media="screen">
+        <script src="JSim-Feedback.js"></script>
+        <title>FeedBacks</title>
+    </head>
+    <body>
+        <header>
+            <!--Hud Menu BEGIN-->
+                <nav class="hud">
+                    <div class="HUD-BAR">
+                         <div class="logo"><a href="../index.html">HB - Tecnico ADS</a></div>
+                              <ul>
+                                   <li><a href="../index.html">Apresentação</a></li>
+                                   <li><a href="../Paginás/Feedbacks.html">Feedbacks</a></li>
+                                   <li><a href="../Paginás/Materias.html">Conteudo</a></li>
+                              </ul>
+                         </div>
+                    </div>
+               </nav>
+          <!--Hud Menu BEGIN-->
+            <h1 class="titulo">FeedBacks dos Alunos</h1>
+        </header>
+        <main>
+            <div class="escRev">
+                <h2 class="txtRev">Faça seu FeedBack!</h2>
+                
+                <div class="txtRev">
+                    <div class="divNome">
+                        <!-- input nome -->
+                        <label for="input" class="txtInput">Escreva seu nome:</label>
+                        <input type="text" class="nome" placeholder="Informe seu nome aqui...">
+                    </div>
+
+                    <div class="divSerie">                   
+                        <!-- input serie -->
+                        <label for="input" class="txtInput">Informe sua série:</label>
+                        <input type="number" class="serie" placeholder="Informe sua série aqui...">
+                    </div>   
+
+                    <div class="divClasse">
+                        <!-- input classe -->
+                        <label for="input" class="txtInput">Informe sua classe:</label>
+                        <input type="text" class="classe"placeholder="Informe sua classe aqui...">
+                    </div>
+
+                    <!-- input review -->
+                    <label for="textarea" class="txtArea">Escreva seu Feedback sobre o curso:</label>
+                    <textarea name="textoReview" id="txtRevi" cols="60" rows="20" class="txtReview" placeholder="Digite seu FeedBack aqui..."></textarea>
+                </div>
+                <div class="botaoEnvio">
+                    <button id="btnEnviar" onclick="Enviar()">ENVIAR</button>
+                </div>
+            </div>
+            <div class="feedbacks">
+                
+            </div>
+        </main>
+    </body>
+</html>
