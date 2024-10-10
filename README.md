@@ -20,9 +20,6 @@ POSSIVEIS ELEMENTOS PARA MATERIAS
 efeito Seção:
 https://www.w3schools.com/howto/howto_js_accordion.asp
 
-Tabs Vertical:
-https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_vertical_tabs
-
 Tabs Mouse:
 https://www.w3schools.com/howto/howto_js_hover_tabs.asp
 
