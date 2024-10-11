@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 
-.accordion-header span {
+.accordion-header label {
     max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
