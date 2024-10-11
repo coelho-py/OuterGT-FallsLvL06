@@ -1,3 +1,4 @@
+/*INICIO SEÇÃO*/
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -12,7 +13,9 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+/*FIM SEÇÃO*/
 
+/*INICIO HOVER*/
 function openCity(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
@@ -33,3 +36,4 @@ function openCity(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+/*FIM HOVER*/
