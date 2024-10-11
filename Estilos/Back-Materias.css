@@ -45,6 +45,14 @@ input[type="radio"]{
   color: violet;
   padding: 0 10px;
   line-height: 26px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked + label + .content{
+  max-height: 400px;
+  padding: 10px 10px 20px;
 }
 /*FIM SEÇÃO*/
 
