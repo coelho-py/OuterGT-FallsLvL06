@@ -1,62 +1,63 @@
-/*INICIO SEÇÃO*/
-.containerConteudo {
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
-  box-sizing: border-box;
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px;
 }
 
-.accordion{
-  margin: 20px auto;
-  width: 600px;
+.accordion {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
-.accordion li{
-  list-style: none;
-  width: 100%;
-  margin: 20px;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 6px 6px 10px -1px  rgba(0,0,0, 0.15),
-  -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+.accordion-header {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.accordion li label{
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
+.accordion-header span {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-label::before{
+.accordion-body {
+    color: #444;
+    font-size: 14px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity .3s;
+}
+
+.accordion-body.active {
+    height: 100%;
+    opacity: 1;
+    padding: 5px 0px;
+}
+
+label:before{
   content: '+';
   margin-right: 10px;
   font-size: 24px;
   font-weight: 600;
 }
 
-input[type="radio"]{
-  display: none;
+.arrow {
+    transition: transform .2s linear;
 }
 
-.accordion .content{
-  color: violet;
-  padding: 0 10px;
-  line-height: 26px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.5s, padding 0.5s;
+.accordion:has(.active) .arrow {
+    transform: rotate(180deg);
 }
-
-.accordion input[type="radio"]:checked + label + .content{
-  max-height: 400px;
-  padding: 10px 10px 20px;
-}
-/*FIM SEÇÃO*/
-
-
-/*INICIO HOVER*/
-
-/*FIM HOVER*/
