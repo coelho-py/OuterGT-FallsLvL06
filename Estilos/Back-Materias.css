@@ -34,7 +34,7 @@
 
 .accordion-body {
     color: #444;
-    font-size: 14px;
+    font-size: 18px;
     opacity: 0;
     height: 0;
     overflow: hidden;
@@ -54,10 +54,35 @@ label:before{
   font-weight: 600;
 }
 
-.arrow {
-    transition: transform .2s linear;
+label{
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.accordion:has(.active) .arrow {
-    transform: rotate(180deg);
+p{  
+    font-size: 18px;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+.tab p{
+    display: block;
+    cursor: pointer;
+}
+
+.tabcontent{
+    display: none;
+    position: absolute;
+    left:  32em;
+    top: 10em;
+    padding: 5px;
+    height: 640px;
+    width: 72%;
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h3{
+    font-size: 32px;
+
 }
