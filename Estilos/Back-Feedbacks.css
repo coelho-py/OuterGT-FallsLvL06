@@ -19,6 +19,7 @@ body{
 header h1{
     text-align: center;
     margin-top: 50px;
+    /* font-size: 50px; */
 }
 
 /* inicio da div para escrevre os feedbacks */
@@ -41,47 +42,91 @@ header h1{
     font-size: 20px;
 }
 
+/* inico div nome */
 .divNome{
-    display: inline;
+    display: flex;
+}
+
+.divNome .txtInput{
+    margin-top: 1em;
 }
 
 .nome{
+    display: flex;
+    margin: 10px 1em 1em 23px;
     background: var(--corInput);
+    height: 2em;
+    width: 12em;
+    font-size: 20px;
 }
 
+/* fim div nome */
+
+
+/* inicio div serie*/
 .divSerie{
-    display: inline;
+    display: flex;
+}
+
+.divSerie .txtInput{
+    margin-top: 25px;
 }
 
 .serie{
+    display: flex;
+    margin: 1em 1em 1em 33px;
     background: var(--corInput);
+    height: 2em;
+    width: 12em;
+    font-size: 20px;
 }
 
+/* fim da div serie */
+
+
+/* inicio div classe */
 .divClasse{
-    display: inline;
+    display: flex;
+}
+
+.divClasse .txtInput{
+    margin-top: 25px;
 }
 
 .classe{
+    display: flex;
+    margin: 15px 1em 1em 1em;
     background: var(--corInput);
+    height: 2em;
+    width: 12em;
+    font-size: 20px;
+}
+
+/* fim div classe */
+
+.feed{
+    display: flex;
 }
 
 .txtArea{
-    display: inline;
-    margin: 0 0em 0em 40em;
+    display: block;
+    margin: 0 0em 0em 0em;
+    font-size: 20px;
 }
 
 #txtRevi{
-    display: flex;
+    display: block;
     background: var(--corFundo);
-    margin: 0 0em 0em 40em;
+    margin: 0 0em 0em 25em;
+    font-size: 20px;
 }
 
 .botaoEnvio #btnEnviar{
     background: var(--corBtn);
     height: 2em;
     width: 7em;
-    transition: 5s all;
+    transition: 1s all;
     cursor: pointer;
 }
 
-/* fim da div de escrever os feedback */
+/* fim dos escrever os feedback */
