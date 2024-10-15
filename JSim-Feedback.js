@@ -1,5 +1,20 @@
-var review = document.getElementById('txtRevi').value;
+// try catch para revisar erros
+try {
+    //variaveis de todos os feedbacks
+    var review = document.getElementById('txtFeed').value;
 
-function Enviar(){
-    alert("cu do jandersinha eh alargado, não faz diferença pro meu pau. Tenho que comer o cu de outros para me saisfazer, pois o cu do jandersinha não me satisfaz ao botar minha piroca");
+    var nome = document.getElementById('nomeFeed').value;
+
+    var serie = document.getElementById('serieFeed').value;
+
+    var classe = document.getElementById('classeFeed').value;
+
+    //funcao do botao enviar na pagina
+
+    function Enviar(){
+        
+    }
+} catch (error) {
+    //ao encontrar um erro, irá dar um alert falando qual e onde é o erro
+    alert(error);
 }
