@@ -53,3 +53,7 @@ html {
   .button:hover {
     background-color: #555;
   }
+
+  .imgAbout {
+    width: 50%;
+  }
