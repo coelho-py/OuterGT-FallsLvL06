@@ -13,15 +13,17 @@
     <!--Hud Menu BEGIN-->
     <nav class="hud">
         <div class="HUD-BAR">
-            <div class="logo"><a href="../index.html">HB - Tecnico ADS</a></div>
-            <ul>
-                <li><a href="../index.html">Apresentação</a></li>
-                <li><a href="../Paginás/Feedbacks.html">Feedbacks</a></li>
-                <li><a href="../Paginás/Materias.html">Conteudo</a></li>
-            </ul>
+             <div class="logo"><a>HB - Tecnico ADS</a></div>
+                  <ul>
+                       <li><a href="index.html">Apresentação</a></li>
+                       <li><a href="Paginás/Feedbacks.html">Feedbacks</a></li>
+                       <li><a href="Paginás/Materias.html">Conteudo</a></li>
+                       <li><a href="projetos.html">Projetos</a></li>
+                       <li><a href="Paginás/About.html">About</a></li>
+                  </ul>
+             </div>
         </div>
-        </div>
-    </nav>
+   </nav>
     <!--Hud Menu BEGIN-->
 </header>
 
@@ -56,7 +58,11 @@
             </button>
 
             <div class="accordion-body">
-                <p> teste 2 </p>
+                <p class="tablinks" onmouseover="opentab(event, 'front')"> • Front-end</p>
+                <p class="tablinks" onmouseover="opentab(event, 'untitiled')"> • untitiled</p>
+                <p class="tablinks" onmouseover="opentab(event, 'untitiled')"> • untitiled</p>
+                <p class="tablinks" onmouseover="opentab(event, 'untitiled')"> • untitiled</p>
+                <p class="tablinks" onmouseover="opentab(event, 'untitiled')"> • untitiled</p>
             </div>
         </div>
         <div id="ads" class="tabcontent">
@@ -78,6 +84,10 @@
         <div id="front" class="tabcontent">
             <h3> • Front-end</h3>
             <p>Front-end texto xd</p>
+        </div>
+        <div id="untitiled" class="tabcontent">
+            <h3> • untitiled</h3>
+            <p>texto indefinido por falta de fontes </p>
         </div>
     </div>
     <!--manter O Link do js no body -->
