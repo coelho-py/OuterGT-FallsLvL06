@@ -3,16 +3,21 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.rodape{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #E32651;
-    margin-top: 164px;
-}
+
+
+
 .Corpo{
+    Background: lightgray; 
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
+    flex-direction: column;
+    height: 90.5%;
+    width: 90.5%;
+    margin: 1.8%;
+    padding: 4%;
+}
+
+
+#img-sql{
+    height: 560px;
+    right: 50px; 
 }

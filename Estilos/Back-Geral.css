@@ -11,6 +11,17 @@ body{
     margin: 0;
 }
 
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:var(--cor_principal) ;
+    color:var(--cor_secunda);
+    text-align: center;
+    padding: 10px 0;
+}
+
 /*Hud BEGIN*/
 .hud{
     background: var(--cor_principal);
@@ -46,14 +57,3 @@ li a{
     text-decoration: none;
 }
 /*Hud FIM*/
-
-.rodape{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: blue;
-    color: red;
-    text-align: center;
-    padding: 10px 0;
-}
