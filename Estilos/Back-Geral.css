@@ -12,7 +12,7 @@ body{
 }
 
 .rodape{
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -21,6 +21,12 @@ body{
     text-align: center;
     padding: 10px 0;
 }
+
+.desgreaca{
+    display: block;
+    height: 200px;
+}
+
 
 /*Hud BEGIN*/
 .hud{
