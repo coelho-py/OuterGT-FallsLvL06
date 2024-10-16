@@ -47,6 +47,7 @@ body{
 .logo a{
     font-size: none;
     font-weight: 600;
+    text-align: center;
     color: var(--cor_secunda);
     text-decoration: none;
 }
