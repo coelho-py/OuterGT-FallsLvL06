@@ -62,9 +62,13 @@ li a{
     margin-right: 25px;
     text-decoration: none;
 }
+
+.logo{
+    width: 20%;
+}
 /*Hud FIM*/
 
-/*Nova Hud BEGIN*/
+/*Menu BEGIN*/
 .overlay {
     height: 0%;
     width: 100%;
@@ -115,4 +119,4 @@ li a{
     right: 35px;
     }
   }
-/*Nova Hud END*/
+/*Menu END*/
