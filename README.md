@@ -6,29 +6,29 @@ para não ter conflitos de Commits!
 -
 
 HUD NOVA:
-https://www.w3schools.com/howto/howto_css_topnav_right.asp
+https://www.w3schools.com/howto/howto_css_topnav_right.asp  HALF CHECK
 
 HUD FIXA:
 https://www.w3schools.com/howto/howto_css_fixed_menu.asp
 
 MENU Cortina:
-https://www.w3schools.com/howto/howto_js_curtain_menu.asp
+https://www.w3schools.com/howto/howto_js_curtain_menu.asp  CHECK
 
 -
 POSSIVEIS ELEMENTOS PARA MATERIAS
 
 efeito Seção:
-https://www.w3schools.com/howto/howto_js_accordion.asp
+https://www.w3schools.com/howto/howto_js_accordion.asp  CHECK
 
 Tabs Mouse:
-https://www.w3schools.com/howto/howto_js_hover_tabs.asp
+https://www.w3schools.com/howto/howto_js_hover_tabs.asp  CHECK
 
 -
 
 4°Page SOBRE
 
 conheça o time:
-https://www.w3schools.com/howto/howto_css_team.asp
+https://www.w3schools.com/howto/howto_css_team.asp  HALF CHECK
 
 social:
 https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
