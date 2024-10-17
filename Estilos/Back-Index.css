@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: var(--cor_fundo);
+  background-color: var(--cor_fundo);
 }
 
 /*Carrosel BEGIN*/
@@ -110,7 +110,8 @@ html {
 
   .column {
     float: left;
-    width: 1%;
+    width: 0;
+    margin-top: 30px;
     margin-bottom: 16px;
     margin-left: 360px;
   }
@@ -124,21 +125,42 @@ html {
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 300px;
-    height: 220px;
+    width: 310px;
+    height: 350px;
     display: flex;
-    flex-direction: inherit;
+    flex-direction: column;
   }
   
   .containerAbout {
     padding: 0 10px;
     right: 0;
     font-size: 16px;
-    align-content: center;
   }
   
   .containerAbout::after, .row::after {
     content: "";
     clear: both;
     display: table;
+  }
+
+  img{
+    height: 120px;
+    width: 270px;
+  }
+
+  button{
+    background-color: var(--corfundo);
+    border: px 2px;
+    width: 220px;
+    height: 30px;
+    box-shadow: 1px 3px 4px 1px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+  }
+
+  button:hover{
+    background-color: #808080;
+    border: 2px 6px 8px 2px;
+    cursor: pointer;
   }
