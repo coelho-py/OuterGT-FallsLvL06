@@ -20,7 +20,7 @@
     border-radius: 8px;
     padding: 12px;
     cursor: pointer;
-    box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.1);
+    box-shadow:  0 2px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .accordion-header {
@@ -80,13 +80,14 @@ p{
 }
 
 .tabcontent{
+    border-color: 2px solid black;
     display: none;
     right: 0;
     top: 10em;
     padding: 5px;
     height: 640px;
     width: 100%;
-    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow:  0 2px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
 }
 
