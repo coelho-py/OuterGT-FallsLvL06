@@ -62,9 +62,6 @@ body{
     margin-left: -20%;
 }
 
-
-/*Auto Navi */
-
 .auto-navi {
     position: fixed;
     display: flex;
@@ -102,10 +99,20 @@ body{
     background-color: var(--cor_fundo);
 }
 
-.column {
+/* bloco */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  .column {
     float: left;
-    width: 23%;
+    width: 5%;
     margin-bottom: 16px;
+    margin-left: 320px;
   }
   
   @media screen and (max-width: 650px) {
@@ -117,8 +124,8 @@ body{
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 420px;
-    height: 290px;
+    width: 380px;
+    height: 340px;
     display: flex;
     flex-direction: inherit;
   }
@@ -161,9 +168,3 @@ body{
     text-decoration: none;
     color: black;
   }
-
-/*Carrosel FIM*/
-
-/*Qualidade e Frete BEGIN*/
-
-/*Qualidade e Frete FIM*/
