@@ -110,9 +110,9 @@ html {
 
   .column {
     float: left;
-    width: 5%;
+    width: 1%;
     margin-bottom: 16px;
-    margin-left: 320px;
+    margin-left: 360px;
   }
   
   @media screen and (max-width: 650px) {
@@ -124,8 +124,8 @@ html {
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 380px;
-    height: 340px;
+    width: 300px;
+    height: 220px;
     display: flex;
     flex-direction: inherit;
   }
@@ -134,37 +134,11 @@ html {
     padding: 0 10px;
     right: 0;
     font-size: 16px;
+    align-content: center;
   }
   
   .containerAbout::after, .row::after {
     content: "";
     clear: both;
     display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-
-  .imgAbout {
-    width: 160px;
-    height: 190px;
-  }
-
-  button{
-    background-color: var(--corfundo);
-    border: 1px 2px 3px;
-    box-shadow: 2px 4px 4px;
-    font-size: 20px;
-    margin-top: 20px;
-  }
-
-  button:hover{
-    cursor: pointer;
-    background-color: var(--corSecundaria);
-  }
-
-  a{
-    text-decoration: none;
-    color: black;
   }
