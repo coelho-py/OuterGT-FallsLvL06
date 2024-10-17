@@ -3,9 +3,10 @@
 Não esqueçam de se comunicar e perguntar se alguem está mexendo na mesma page que você,
 para não ter conflitos de Commits!
 ---------------------------------------------------------------------------------------
-Na Page de Materias, o Rodape está sobrepondo o restante!
-Necessita inserir informações mediante as materias de 1°,2° e 3°.
+Na Page de Materias, o Rodape está sobrepondo o restante! Também necessita inserir informações mediante as materias de 1°,2° e 3°.
+
 Terminar About, talvez necessario alterar metodo de "cards" da equiṕe.
+
 Talvez seja necessario substituir a Page Feedbacks para apenas uma Page com Depoimentos
 dos alunos.
 
