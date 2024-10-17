@@ -32,6 +32,10 @@ header h1{
     margin: 5em 100em 100em 20em;
 }
 
+.inputs{
+    display: flex;
+}
+
 .txtRev{
     text-align: center;
     padding: 15px;
