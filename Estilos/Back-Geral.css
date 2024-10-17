@@ -36,6 +36,13 @@ p.subTitleG {
   font-family: sans-serif;
   font-size: 14px;
 }
+
+p.leitura {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: white;
+}
 /*txt END*/
 
 /*Hud BEGIN*/

@@ -1,4 +1,5 @@
 
+/*Conteudo BEGIN*/
 #container {
     display: flex;
     flex-direction: column;
@@ -95,7 +96,9 @@ h3{
     font-size: 32px;
 
 }
+/*Conteudo END*/
 
+/*Projetos BEGIN*/
 .Corpo{
     Background: lightgray; 
     display: flex;
@@ -106,8 +109,8 @@ h3{
     padding: 4%;
 }
 
-
-#img-sql{
+#img-JS{
     height: 560px;
     right: 50px; 
 }
+/*Projetos END*/
