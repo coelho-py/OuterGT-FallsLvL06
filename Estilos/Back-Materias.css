@@ -5,7 +5,16 @@
     gap: 8px;
     width: 500px;
 }
+.container_main{
+    display: flex;
+    flex-direction: inherit;
+    width: 100%;
+}
 
+.container_content{
+    padding-left: 20px;
+    width: 71%;
+}
 .accordion {
     background-color: #fff;
     border-radius: 8px;
@@ -72,12 +81,11 @@ p{
 
 .tabcontent{
     display: none;
-    position: absolute;
-    left:  32em;
+    right: 0;
     top: 10em;
     padding: 5px;
     height: 640px;
-    width: 72%;
+    width: 100%;
     box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }

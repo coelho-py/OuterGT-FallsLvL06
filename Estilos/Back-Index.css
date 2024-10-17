@@ -54,7 +54,7 @@ body{
     height: 1000px;
 }
 
-.manual-navi{
+ /* .manual-navi{
     position: fixed;
     width: 800px;
     margin-left: 1580px;
@@ -79,7 +79,7 @@ body{
 .manual-btn:not(:last-child){
     margin-right: 40px;
 }
-
+*/ 
 #radio1:checked ~ .first{
     margin-left: 40%;
 }
@@ -96,7 +96,8 @@ body{
     margin-left: -20%;
 }
 
-/* Auto Navi*/
+
+/*Auto Navi */
 
 .auto-navi {
     position: fixed;
@@ -134,6 +135,7 @@ body{
 #radio4:checked ~.auto-btn-4{
     background-color: var(--cor_fundo);
 }
+
 /*Carrosel FIM*/
 
 /*Qualidade e Frete BEGIN*/
