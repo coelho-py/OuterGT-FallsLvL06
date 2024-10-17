@@ -10,7 +10,6 @@ html {
     float: left;
     width: 20%;
     margin-bottom: 16px;
-    padding: 0 8px;
   }
   
   @media screen and (max-width: 650px) {
@@ -22,10 +21,16 @@ html {
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 360px;
+    height: 390px;
+    display: flex;
+    flex-direction: inherit;
   }
   
   .containerAbout {
-    padding: 0 16px;
+    padding: 0 10px;
+    right: 0;
+    font-size: 13px;
   }
   
   .containerAbout::after, .row::after {
@@ -39,5 +44,6 @@ html {
   }
 
   .imgAbout {
-    width: 40%;
+    width: 140px;
+    height: 140px;
   }
