@@ -26,6 +26,17 @@ body{
     height: 90px;
 }
 
+/*txt BEGIN*/
+h1.TitleG {
+  text-align: center;
+}
+
+p.subTitleG {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+/*txt END*/
 
 /*Hud BEGIN*/
 .hud{
@@ -78,10 +89,11 @@ li a{
     top: 1em;
     left: 4em;
   }
-  a{
+
+a{
     text-decoration: none;
     color: black;
-  }
+}
 /*Hud FIM*/
 
 /*Menu BEGIN*/
