@@ -33,7 +33,9 @@ html {
     width: 420px;
     height: 290px;
     display: flex;
+    border-radius: 20px;
     flex-direction: inherit;
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.2));
   }
   
   .containerAbout {
@@ -55,6 +57,7 @@ html {
   .imgAbout {
     width: 160px;
     height: 190px;
+    border-radius: 18px;
   }
 
   button{
