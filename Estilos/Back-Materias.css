@@ -90,6 +90,7 @@ p{
     width: 100%;
     box-shadow:  0 2px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
+    overflow: scroll;
 }
 
 h3{
@@ -113,4 +114,5 @@ h3{
     height: 560px;
     right: 50px; 
 }
+
 /*Projetos END*/
