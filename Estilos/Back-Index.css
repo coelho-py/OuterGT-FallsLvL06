@@ -1,4 +1,4 @@
-:root{
+  :root{
     --cor_principal: #1f4dca;
     --cor_secunda: #76afe4;
     --cor_btn: #808080;
@@ -12,23 +12,20 @@ body{
 /*Carrosel BEGIN*/
 .containerCsl{
     height: 650px;
-    margin: 90px;
+    top: 0;
 }
 
 .carrosel {
-    margin-top: 15px;
+    margin-top: 6px;
     padding: 0;
-    display: flex;
+    display: flex;    
     justify-content: center;
     width: 100%;
-    height: 800px;
-    border-radius: 10px;
+    height: 700px;
     overflow: hidden;
 }
 
-.slides {
-    width: 500%;
-    height: 500px;
+.slides{
     display: flex;
 }
 
@@ -38,12 +35,12 @@ body{
 
 .slide {
     width: 20%;
-    transition: 1.5s;
+    transition: 1.2s; 
 }
 
 .slide img{
-    width: 2200px;
-    height: 1000px;
+    width: 2400px;
+    height: 800px;
 }
 
 #radio1:checked ~ .first{
@@ -150,7 +147,7 @@ html {
 
   button{
     background-color: var(--corfundo);
-    border: px 2px;
+    border: 2px;
     width: 220px;
     height: 30px;
     box-shadow: 1px 3px 4px 1px;
