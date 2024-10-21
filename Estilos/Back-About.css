@@ -17,7 +17,7 @@ html {
   
   .column {
     float: left;
-    width: 23%;
+    width: 24%;
     margin-bottom: 16px;
   }
   
@@ -29,13 +29,13 @@ html {
   }
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 420px;
-    height: 290px;
+    box-shadow: 3px 6px 8px 1px rgba(0, 0, 0, 0.2);
+    width: 440px;
+    height: 270px;
     display: flex;
     border-radius: 20px;
     flex-direction: inherit;
-    background: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 0, 0, 0.2));
+    background: linear-gradient(rgba(245, 245, 245, 1), rgba(0, 0, 0, 0.2));
   }
   
   .containerAbout {
@@ -62,14 +62,17 @@ html {
 
   button{
     background-color: var(--corfundo);
-    border: 1px 2px 3px;
-    box-shadow: 2px 4px 4px;
+    box-shadow: 2px 2px 4px;
     font-size: 20px;
+    height: 35px;
+    border-radius: 5px;
+    width: 90px;
     margin-top: 20px;
   }
 
   button:hover{
     cursor: pointer;
+    box-shadow: 1px 1px 3px;
     background-color: var(--corSecundaria);
   }
 
