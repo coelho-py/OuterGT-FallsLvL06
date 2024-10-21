@@ -11,6 +11,14 @@
         <title>FeedBacks</title>
     </head>
     <body>
+            
+        {% with menssage = get_flashed_messages%}
+        {% if messages%}
+        {% for messages in messages%}
+        <div>{% messsages %}</div>
+        {% endfor %}
+        {% endif %} 
+        {% enwith%}
         <header>
             <!--Hud Menu BEGIN-->
             <nav class="hud">
@@ -76,7 +84,7 @@
         </main>
         <footer>
             <div class="rodape">
-                <h1>@chasdubralbellegard</h1>
+                <h1>Rodapé</h1>
             </div>
         </footer>
     </body>
