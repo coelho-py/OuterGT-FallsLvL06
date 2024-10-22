@@ -8,4 +8,3 @@ app.secret_key = '12345'
 def conectar_db():
     conectar = sqlite3.connect('banco.db')
     return conectar
-
