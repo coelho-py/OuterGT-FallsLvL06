@@ -45,6 +45,7 @@ p.leitura {
 }
 /*txt END*/
 
+/*Hud GERAL BEGIN*/
 /*Hud BEGIN*/
 .hud{
     background: var(--cor_principal);
@@ -154,3 +155,61 @@ a{
     }
   }
 /*Menu END*/
+/*Hud GERAL END*/
+
+/*rodape GERAL BEGIN*/
+/*rodapeSocial BEGIN*/
+*footer.footerContainer{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footerContainer{
+  background-color: var(--cor_principal);
+}
+
+.containerRodape{
+  width: 100%;
+  padding: 70px 30px 30px;
+}
+
+.rodapeSocial{
+  display: flex;
+  justify-content: center;
+}
+
+.rodapeSocial a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: var(--cor_secunda);
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.rodapeSocial a i{
+  font-size: 2em;
+  color: var(--cor_fundo);
+}
+/*rodapeSocial END*/
+
+/*rodapeHB BEGIN*/
+.rodapeHB {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+/*rodapeHB END*/
+
+/*rodapeHover BEGIN*/
+.rodapeSocial a:hover{
+  background-color: var(--cor_principal);
+  transition: 0.5s;
+}
+
+.rodapeSocial a:hover{
+  color: var(--cor_fundo);
+  transition: 0s;
+}
+/*rodapeHover END*/
+/*rodape GERAL END*/
