@@ -216,5 +216,9 @@ a{
   color: var(--cor_fundo);
   transition: 0s;
 }
+
+.rodapeHB > p{
+  font-size: 24px;
+}
 /*rodapeHover END*/
 /*rodape GERAL END*/
