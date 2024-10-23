@@ -98,6 +98,10 @@ li a{
     left: 4em;
   }
 
+.imgLogo:hover{
+  cursor: pointer;
+}
+
 a{
     text-decoration: none;
     color: black;
