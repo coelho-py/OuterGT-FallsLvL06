@@ -22,5 +22,5 @@ if (isset($_POST)) {
     $stmt = $pdo->prepare($query);
     $stmt->execute();
 
-    header("Location: index.php");
+    header("Location: index.php?criado=sucesso");
 }
