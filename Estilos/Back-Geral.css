@@ -1,5 +1,5 @@
 :root{
-    --cor_principal: #1f4dca;
+    --cor_principal: #2d65b9;
     --cor_secunda: #76afe4;
     --cor_btn: #808080;
     --cor_fundo: #ffffffaf;
@@ -70,8 +70,8 @@ p.leitura {
 .logo a{
     position: fixed;
     font-weight: 600;
+    color: white;
     text-align: center;
-    color: var(--cor_secunda);
     text-decoration: none;
   }
 
