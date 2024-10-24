@@ -29,7 +29,7 @@ header h1{
     border-color: black;
     height: 40em;
     width: 75em;
-    margin: 5em 100em 100em 20em;
+    margin: 5em 100px 100px 22em;
 }
 
 .inputs{
@@ -134,3 +134,15 @@ header h1{
 }
 
 /* fim dos escrever os feedback */
+
+/*depoimentos BEGIN*/
+.containerDepoimentos{
+    Background: lightgray; 
+    display: flex;
+    flex-direction: column;
+    margin: 100px 100px 20em;
+    padding: 4%;
+    border: 2px solid black;
+}
+
+/*depoimentos END*/
