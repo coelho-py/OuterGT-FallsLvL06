@@ -96,6 +96,7 @@ li a{
     position: fixed;
     top: 1em;
     left: 4em;
+    border-radius: 50px;
   }
 
 .imgLogo:hover{
