@@ -110,9 +110,24 @@ h3{
     padding: 4%;
 }
 
-#img-JS{
-    height: 560px;
-    right: 50px; 
+.img-JSCode{
+    width: 60%;
 }
 
+.img-JS{
+    width: 45%;
+}
+
+
+.img-SQLCode{
+    width: 60%;
+}
+
+.img-KriptoCode{
+    width: 60%;
+}
+
+.img-Kripto{
+    width: 45%;
+}
 /*Projetos END*/
