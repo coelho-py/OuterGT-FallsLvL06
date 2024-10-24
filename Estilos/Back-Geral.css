@@ -223,3 +223,15 @@ a{
 }
 /*rodapeHover END*/
 /*rodape GERAL END*/
+
+/*img BEGIN*/
+
+#img-Code{ /*referente á img's com codigos*/
+  width: 60%;
+}
+
+#img-Result{ /*referente á img's com resultados ou img's soltas*/
+  width: 45%;
+}
+
+/*img END*/
