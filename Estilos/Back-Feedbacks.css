@@ -3,11 +3,7 @@
     --corSecundaria: #76afe4;
     --corBtn: #808080;
     --corFundo: lightgray;
-    --corInput: rgb(231, 228, 228);
-}
-
-body{
-    background-color: var(--corFundo);  
+    --corInput: white;
 }
 
 * {
@@ -25,6 +21,7 @@ header h1{
 /* inicio da div para escrevre os feedbacks */
 
 .escRev{
+    background: var(--corFundo);
     border: 2px solid;
     border-color: black;
     height: 40em;
@@ -137,12 +134,13 @@ header h1{
 
 /*depoimentos BEGIN*/
 .containerDepoimentos{
-    Background: lightgray; 
+    background: var(--corFundo);
     display: flex;
     flex-direction: column;
     margin: 100px 100px 20em;
     padding: 4%;
     border: 2px solid black;
+    overflow: scroll;
 }
 
 /*depoimentos END*/
