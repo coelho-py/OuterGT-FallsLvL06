@@ -13,6 +13,7 @@ Geral:
 rodape  - CHECK(X)
 
 HUD - CHECK(X)
+
 [HUD NOVA
 https://www.w3schools.com/howto/howto_css_topnav_right.asp
 
@@ -22,6 +23,7 @@ https://www.w3schools.com/howto/howto_css_fixed_menu.asp
 MENU Cortina
 https://www.w3schools.com/howto/howto_js_curtain_menu.asp]
 
+
 -
 
 1°Page Home
@@ -30,16 +32,19 @@ Carrosel - CHECK(X)
 
 Cards Pages - CHECK(X)
 
+
 -
 
 2°Page Conteudos
 
 Aba Materias - CHECK(X)
+
 [efeito Seção
 https://www.w3schools.com/howto/howto_js_accordion.asp
 
 Tabs Mouse
 https://www.w3schools.com/howto/howto_js_hover_tabs.asp]
+
 
 -
 
@@ -51,16 +56,19 @@ https://www.w3schools.com/howto/howto_js_hover_tabs.asp]
 
  Junção BD - CHECK()
 
+
 -
 
 4°Page SOBRE
 
 conheça o time  - CHECK()
+
 [cards equipe:
 https://www.w3schools.com/howto/howto_css_team.asp
 
 social:
 https://www.w3schools.com/howto/howto_css_social_media_buttons.asp]
+
 
 -
 
