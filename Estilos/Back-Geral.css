@@ -43,6 +43,10 @@ p.leitura {
   font-size: 14px;
   color: white;
 }
+
+textarea{
+  resize: none;
+}
 /*txt END*/
 
 /*Hud GERAL BEGIN*/
