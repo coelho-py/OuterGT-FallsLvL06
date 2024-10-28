@@ -3,14 +3,8 @@ use BDTDF;
 
 create table usuario(
 	ID_usuario int primary key auto_increment not null,
-    nomeUsuario varchar(80) not null,
-    serieUsuario int(1) not null,
-    classeUsuario char(1) not null
-);
-
-create table depoimento(
-	ID_depoimento int primary key auto_increment not null,
-    review varchar(500) not null,
-    usuarioID int not null,
-    foreign key (usuarioID) references usuario(ID_usuario)
+    	nomeUsuario varchar(80) not null,
+    	serieUsuario int(1) not null,
+    	classeUsuario char(1) not null,
+	review varchar(500) not null
 );
