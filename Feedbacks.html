@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../Estilos/Back-Geral.css" media="screen">
+        <link rel="stylesheet" href="../Estilos/Back-Feedbacks.css" media="screen">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="JSim-Feedback.js"></script>
+        <script src="../JavaScript/JSim-Geral.JS"></script>
+        <title>FeedBacks</title>
+    </head>
+    <body>
+            
+        {% with menssage = get_flashed_messages%}
+        {% if messages%}
+        {% for messages in messages%}
+        <div>{% messsages %}</div>
+        {% endfor %}
+        {% endif %} 
+        {% enwith%}
+        <header>
+            <!--Hud Menu BEGIN-->
+            <nav class="hud">
+                <div class="HUD-BAR">
+                    <div class="logo"><a href="../index.html"><img class="imgLogo" src="../img/HB.jpg">HB - Tecnico ADS</a></div>
+                            <ul>
+                               <li>
+                                <div id="myNav" class="overlay">
+                                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                   <div class="overlay-content">
+                                     <a href="../index.html">Home</a>
+                                     <a href="../Paginás/Materias.html">Conteudos</a>
+                                     <a href="../Paginás/About.html">Sobre-Nós</a>
+                                   </div>
+                                </div>
+                                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                               </li>
+                          </ul>
+                     </div>
+                </div>
+           </nav>     
+      <!--Hud Menu END-->
+            <h1 class="titulo">FeedBacks dos Alunos</h1>
+        </header>
+        <main>
+            <div class="desgreaca"></div>
+            <div class="escRev">
+                <h2 class="txtRev">Faça seu FeedBack!</h2>
+
+                <!-- form que liiga ao php -->
+                <form action="depoimentos.php" method="POST">
+                     <!-- inicio dos inputs -->
+                    <div class="inputs">
+                        <div class="txtRev">
+                            <div class="divNome">
+                                <!-- input nome -->
+                                <label for="nome" class="txtInput">Escreva seu nome:</label>
+                                <input id="nomeFeed" name="nomeUsuario" type="text" class="nome" placeholder="Digite aqui...">
+                            </div>
+
+                            <div class="divSerie">                   
+                                <!-- input serie -->
+                                <label for="serie" class="txtInput">Informe sua série:</label>
+                                <input id="serieFeed" name="serieUsuario" min="1" max="3" type="number" class="serie" placeholder="Digite aqui..."> 
+                            </div>   
+
+                            <div class="divClasse">
+                                <!-- input classe -->
+                                <label for="classe" class="txtInput">Informe sua classe:</label>
+                                <input id="classeFeed" name="classeUsuario" type="text" class="classe" maxlength="1" placeholder="Digite aqui...">
+                            </div>
+                        </div>
+                        <div class="feed">
+                            <!-- input review -->
+                            <label for="txtRevi" class="txtArea">Escreva seu Feedback sobre o curso:</label>
+                            <textarea name="textoReview" id="txtFeed" cols="60" rows="20" 
+                            class="txtReview" placeholder="Digite aqui..."></textarea>
+                        </div>
+                    </div>
+                    <div class="botaoEnvio">
+                        <input id="btnEnviar" type="submit" value="enviar">
+                    </div>
+                </div>
+            </form>
+            <div class="containerDepoimentos">
+                <h3>Crossing Road em JS</h3>
+    
+                <p id="txtLeitura" class="texto-1">Uma das muitas coisas que você aprenderá neste curso é a Programação em JS no caso JavaScript.<br>
+                    Segue ao lado uma programação utilizando JS para programar o famoso jogo da galinha o "Crossing Road" e como ficou:</p>
+                <img  id="img-Code" src="../img/imgGameCode.png" alt="Imagem de um programa em JS">
+                    <p id="txtLeitura" class="texto-1">Resultado:</p>
+                <img  id="img-Result" src="../img/imgGameResult.png" alt="Imagem de um programa em JS">
+            </div>
+        </main>
+        <div class="desgreaca"></div>
+    </body>
+    <footer class="footerRodape">
+        <div class="containerRodape">
+            <div class="rodapeHB">
+                <p>
+                    Acompanhe-nos nas redes sociais
+                </p>
+            </div>
+            <div class="rodapeSocial">
+                <a href="https://www.facebook.com/colegiohb/?locale=pt_BR"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/chasdrubalbellegard/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+</html>
