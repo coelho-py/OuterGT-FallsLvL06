@@ -155,24 +155,13 @@ header h1{
 /*depoimentos END*/
 
 
-@media screen and (max-width: 720px){
-    .escRev{
-        margin-left: 100px;
-        width: auto;
-        height: auto;
-    }
-    .feed{
-        margin-top: 250px;
-        margin-left: -300px;
-        width: 50%;
-    }
-    .botaoEnvio{margin-left: -275px; margin-top: 0;}
+@media screen and (max-width: 720px) {
     .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
-    .overlay a {font-size: 50px}
+    .overlay a {font-size: 30px; margin-left: -30px;}
     .overlay .closebtn {
-        font-size: 60px;
+        font-size: 40px;
         top: 15px;
-        right: 35px;
+        right: 15px;
     }
-}
+  }
