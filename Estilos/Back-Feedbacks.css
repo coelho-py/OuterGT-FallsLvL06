@@ -156,6 +156,9 @@ header h1{
 
 
 @media screen and (max-width: 720px) {
+    .hud{
+        width: auto;
+    }
     .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
     .overlay a {font-size: 30px; margin-left: -30px;}
@@ -163,5 +166,24 @@ header h1{
         font-size: 40px;
         top: 15px;
         right: 15px;
+    }
+    .escRev{
+        margin-left: 0;
+        width: 95%;
+        height: auto;
+    }
+    .feed{  
+        margin-left: -300px;
+        width: 40%;
+        height: auto;
+        margin-top: 300px;
+    }
+
+    .botaoEnvio{    
+        margin-left: auto;
+        margin-top: 0;
+    }
+    .txtArea{   
+        width: auto;
     }
   }
