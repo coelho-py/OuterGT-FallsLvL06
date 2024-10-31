@@ -154,11 +154,12 @@ a{
     font-size: 60px;
   }
   
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 720px) {
+    .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
-    .overlay a {font-size: 20px}
+    .overlay a {font-size: 50px}
     .overlay .closebtn {
-    font-size: 40px;
+    font-size: 60px;
     top: 15px;
     right: 35px;
     }

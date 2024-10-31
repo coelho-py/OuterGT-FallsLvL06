@@ -113,12 +113,22 @@ html {
     margin-left: 400px;
   }
   
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 720px) {
     .column {
-      width: 100%;
+      margin-left: 55px;
+      width: 65%;
       display: block;
     }
+    .overlay-content{margin-left: 35px;}
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 30px; margin-left: -30px;}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 15px;
+    }
   }
+
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
