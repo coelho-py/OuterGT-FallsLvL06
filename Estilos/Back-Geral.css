@@ -153,17 +153,7 @@ a{
     right: 45px;
     font-size: 60px;
   }
-  
-  @media screen and (max-height: 720px) {
-    .overlay-content{margin-left: 35px;}
-    .overlay {overflow-y: auto;}
-    .overlay a {font-size: 50px}
-    .overlay .closebtn {
-    font-size: 60px;
-    top: 15px;
-    right: 35px;
-    }
-  }
+
 /*Menu END*/
 /*Hud GERAL END*/
 
@@ -237,6 +227,25 @@ a{
 
 #img-Result{ /*referente á img's com resultados ou img's soltas*/
   width: 45%;
+}
+
+@media screen and (max-width: 720px) {
+  .column {
+    margin-left: 55px;
+    width: 65%;
+    display: block;
+  }
+  .overlay-content{margin-left: 35px;}
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 30px; margin-left: -30px;}
+  .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 15px;
+  }
+  .hud{
+      width: 94%;
+  }
 }
 
 /*img END*/
