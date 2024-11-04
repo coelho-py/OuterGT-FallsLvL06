@@ -161,12 +161,17 @@ header h1{
     }
     .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
-    .overlay a {font-size: 30px; margin-left: -30px;}
+    .overlay a {font-size: 50px; margin-left: -130px;}
     .overlay .closebtn {
-        font-size: 40px;
+        font-size: 60px;
         top: 15px;
-        right: 15px;
+        right: 90px;
     }
+
+    body{
+        width: 455px;
+    }
+    
     .escRev{
         margin-left: 0;
         width: 95%;

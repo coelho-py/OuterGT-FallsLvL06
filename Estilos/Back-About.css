@@ -29,12 +29,17 @@ html {
     }
     .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
-    .overlay a {font-size: 50px}
+    .overlay a {font-size: 50px; margin-left: -150px;}
     .overlay .closebtn {
         font-size: 60px;
         top: 15px;
-        right: 35px;
+        right: 120px;
     }
+    
+    body{
+      width: 455px;
+    } 
+
   }
   
   .card {
