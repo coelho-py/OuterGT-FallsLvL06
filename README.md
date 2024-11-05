@@ -1,8 +1,7 @@
-# site-dos-fodoes
-Não esqueçam de se comunicar e perguntar se alguem está mexendo na mesma page que você,
-para não ter conflitos de Commits!
+# WebSite HB tecnico
 ---------------------------------------------------------------------------------------
-
+Um Website do Hasdubral Bellgard feito pelo 2° ano do ensino médio técnico, com finalidade de apresentar o trabalho dos dev e o que aprendemos no técnico.
+---------------------------------------------------------------------------------------
 exemplo projeto --> https://imgur.com/lwltMuF.png
 
 obs:
