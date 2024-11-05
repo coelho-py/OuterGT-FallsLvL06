@@ -24,21 +24,24 @@ html {
   @media screen and (max-width: 720px) {
     .column {
       width: 100%;
-      margin-left: 120px;
+      margin-left: 1%;
       display: block;
     }
     .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
-    .overlay a {font-size: 50px; margin-left: -150px;}
+    .overlay a {font-size: 50px; margin-left: -75px;}
     .overlay .closebtn {
         font-size: 60px;
         top: 15px;
-        right: 120px;
-    }
-    
+        right: 5px;
+    }   
+
     body{
-      width: 455px;
+      width: auto;
     } 
+    .hud{
+      width: 100%;
+    }
 
   }
   

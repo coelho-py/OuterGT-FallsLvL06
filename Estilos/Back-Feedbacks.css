@@ -156,17 +156,14 @@ header h1{
 
 
 @media screen and (max-width: 720px) {
-    .hud{
-        width: auto;
-    }
     .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
-    .overlay a {font-size: 50px; margin-left: -130px;}
+    .overlay a {font-size: 50px; margin-left: -75px;}
     .overlay .closebtn {
         font-size: 60px;
         top: 15px;
-        right: 90px;
-    }
+        right: 5px;
+    }   
 
     body{
         width: 455px;
@@ -185,10 +182,16 @@ header h1{
     }
 
     .botaoEnvio{    
-        margin-left: auto;
+        margin-left: -18%;
         margin-top: 0;
     }
     .txtArea{   
         width: auto;
+    }
+    body{
+        width: auto;
+    }
+    .hud{
+        width: 100%;
     }
   }

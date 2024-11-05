@@ -115,7 +115,7 @@ html {
   
   @media screen and (max-width: 720px) {
     .column {
-      margin-left: 55px;
+      margin-left: 22%;
       width: 65%;
       display: block;
     }
@@ -129,7 +129,7 @@ html {
     }
 
     body{
-      width: 455px;
+      width: auto;
     }
   
   }

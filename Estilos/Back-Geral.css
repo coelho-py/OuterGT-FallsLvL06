@@ -230,26 +230,22 @@ a{
 }
 
 @media screen and (max-width: 720px) {
-  .column {
-    margin-left: 55px;
-    width: 65%;
-    display: block;
-  }
   .overlay-content{margin-left: 35px;}
   .overlay {overflow-y: auto;}
-  .overlay a {font-size: 50px}
+  .overlay a {font-size: 50px; margin-left: -75px;}
   .overlay .closebtn {
       font-size: 60px;
       top: 15px;
-      right: 35px;
-  }
+      right: 5px;
+  }   
+  
   body{
-      width: 455px;
+    width: auto;
+  } 
+  .hud{
+    width: 100%;
   }
 
-  .hud{
-      width: 94%;
-  }
 }
 
 /*img END*/
