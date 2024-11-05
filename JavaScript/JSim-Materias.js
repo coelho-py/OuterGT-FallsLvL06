@@ -26,3 +26,7 @@ function opentab(evt, cont) {
     
     evt.currentTarget.className += " active";
 }
+
+if (document.documentElement.clientWidth < 720){
+    window.location = "../Paginás/MateriasM.html"
+}
