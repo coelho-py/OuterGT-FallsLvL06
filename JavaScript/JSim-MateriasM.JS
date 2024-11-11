@@ -1,12 +1,18 @@
 //safona inicio da section
-const accordions = document.querySelectorAll('.accordion');
+const acc = document.querySelectorAll('.accordion');
+var i;
 
-accordions.forEach(accordion => {
-    accordion.addEventListener('click', () => {
-        const body = accordion.querySelector('.accordion-body');
-        body.classList.toggle('active');
-    })
-})
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
 
 //hover de mouse dentro da safona
 function opentab(evt, cont) {
