@@ -1,18 +1,12 @@
-//safona inicio da section
-const acc = document.querySelectorAll('.accordion');
-var i;
+const accordions = document.querySelectorAll('.accordion');
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
+accordions.forEach(accordion => {
+  accordion.addEventListener('touchstart', (event) => {
+    event.preventDefault();
+    const body = accordion.querySelector('.accordion-body');
+    body.classList.toggle('active');
   });
-}
+});
 
 //hover de mouse dentro da safona
 function opentab(evt, cont) {
@@ -29,9 +23,10 @@ function opentab(evt, cont) {
     }
 
     document.getElementById(cont).style.display = "block";
-    
+
     evt.currentTarget.className += " active";
 }
+
 
 //hud overlay mobile
 function openNav() {
