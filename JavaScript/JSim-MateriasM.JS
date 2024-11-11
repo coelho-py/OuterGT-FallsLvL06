@@ -23,7 +23,7 @@ const accordions = document.querySelectorAll('.accordion-header');
 accordions.forEach(accordion => {
   accordion.addEventListener('click', (event) => {
     const body = accordion.nextElementSibling;
-    body.classList.toggle('active');
+    body.classList.toggle(' active');
   });
 });
 
