@@ -18,7 +18,7 @@ function opentab(evt, cont) {
     evt.currentTarget.className += " active";
 }
 
-const accordions = document.querySelectorAll('.accordion-header');
+const accordions = document.querySelectorAll('.accordion');
 
 accordions.forEach(accordion => {
   accordion.addEventListener('click', (event) => {
