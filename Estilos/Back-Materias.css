@@ -83,7 +83,7 @@ p{
 .tabcontent{
     border-color: 2px solid black;
     display: none;
-    right: 0;
+    right: auto;
     top: 10em;
     padding: 5px;
     height: 640px;
@@ -116,6 +116,18 @@ h3{
       margin-left: 55px;
       width: 65%;
       display: block;
+    }
+    .tabcontent{
+        margin-top: 69px;
+        width: 125%;
+        height: auto;
+    }
+    .accordion{
+        width: 60%;
+        height: auto;
+    }
+    .container_main{
+        display: block;
     }
     .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
