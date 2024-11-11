@@ -1,12 +1,3 @@
-const accordions = document.querySelectorAll('.accordion');
-
-accordions.forEach(accordion => {
-  accordion.addEventListener('touchstart', (event) => {
-    event.preventDefault();
-    const body = accordion.querySelector('.accordion-body');
-    body.classList.toggle('active');
-  });
-});
 
 //hover de mouse dentro da safona
 function opentab(evt, cont) {
@@ -36,7 +27,7 @@ accordions.forEach(accordion => {
   });
 });
 
-document.querySelectorAll('.accordion-body').forEach(item => {
+document.querySelectorAll('tablinks').forEach(item => {
   item.addEventListener('click', (event) => {
     event.stopPropagation();
   });
