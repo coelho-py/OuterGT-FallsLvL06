@@ -27,6 +27,21 @@ function opentab(evt, cont) {
     evt.currentTarget.className += " active";
 }
 
+const accordions = document.querySelectorAll('.accordion-button');
+
+accordions.forEach(accordion => {
+  accordion.addEventListener('click', (event) => {
+    const body = accordion.nextElementSibling;
+    body.classList.toggle('active');
+  });
+});
+
+document.querySelectorAll('.accordion-body').forEach(item => {
+  item.addEventListener('click', (event) => {
+    event.stopPropagation();
+  });
+
+});
 
 //hud overlay mobile
 function openNav() {
