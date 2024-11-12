@@ -121,7 +121,7 @@ html {
     }
     .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
-    .overlay a {font-size: 50px; margin-left: -50px;}
+    .overlay a {font-size: 36px; margin-left: -50px;}
     .overlay .closebtn {
         font-size: 60px;
         top: 15px;
