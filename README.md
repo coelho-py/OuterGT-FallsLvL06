@@ -1,4 +1,4 @@
-# WebSite HB tecnico
+# Projeto Wild GT FallsLvL06
 ---------------------------------------------------------------------------------------
 Um Website do Hasdubral Bellgard feito pelo 2° ano do ensino médio técnico, com finalidade de apresentar o trabalho dos dev e o que aprendemos no técnico.
 ---------------------------------------------------------------------------------------
