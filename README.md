@@ -13,3 +13,7 @@ pendências:
 - se precisarmos do ip da maquina para continuar com o mesmo banco de dados digitar ifconfig -I no console
 
 - falta finalização da acessibilidade do mobile
+
+- inserir nova page sobre o colégio requisitada pela fran
+
+- criar uma page reserva de feedbacks com apenas depoimentos
