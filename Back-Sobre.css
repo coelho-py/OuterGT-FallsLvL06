@@ -1,0 +1,14 @@
+:root{
+    --cor_principal: #2d65b9;
+    --cor_secunda: #76afe4;
+    --cor_btn: #808080;
+    --cor_fundo: #ffffffaf;
+}
+
+body{
+  background-color: var(--cor_fundo);
+}
+
+.escola{
+    margin-top: 6%;
+}
