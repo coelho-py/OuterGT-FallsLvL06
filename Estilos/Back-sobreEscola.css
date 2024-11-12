@@ -1,0 +1,142 @@
+/*Conteudo BEGIN*/
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 500px;
+}
+.container_main{
+    display: flex;
+    flex-direction: inherit;
+    width: 100%;
+}
+
+.container_content{
+    padding-left: 20px;
+    width: 71%;
+}
+.accordion {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow:  0 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.accordion-header label {
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.accordion-body {
+    color: #444;
+    font-size: 18px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity .3s;
+}
+
+.accordion-body.active {
+    height: 100%;
+    opacity: 1;
+    padding: 5px 0px;
+}
+
+label:before{
+  content: '+';
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+label{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p{  
+    font-size: 22px;
+    padding: 1px;
+    padding-left: 10px;
+}
+
+.tab p{
+    display: block;
+    cursor: pointer;
+}
+
+.tabcontent{
+    border-color: 2px solid black;
+    display: none;
+    right: auto;
+    top: 10em;
+    padding: 5px;
+    height: 640px;
+    width: 100%;
+    box-shadow:  0 2px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: scroll;
+}
+
+h3{
+    font-size: 32px;
+
+}
+/*Conteudo END*/
+
+/*Projetos BEGIN*/
+.Corpo{
+    Background: lightgray; 
+    display: flex;
+    flex-direction: column;
+    height: 90.5%;
+    width: 90.5%;
+    margin: 1.8%;
+    padding: 4%;
+}
+/*Projetos END*/
+
+@media screen and (max-width: 720px) {
+    .column {
+      margin-left: 55px;
+      width: 65%;
+      display: block;
+    }
+    .tabcontent{
+        margin-top: 69px;
+        width: 125%;
+        height: auto;
+    }
+    .accordion{
+        width: 60%;
+        height: auto;
+    }
+    .container_main{
+        display: block;
+    }
+    .overlay-content{margin-left: 35px;}
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 36px; margin-left: -40px;}
+    .overlay .closebtn {
+        font-size: 60px;
+        top: 15px;
+        right: 5px;
+    }
+    body{
+        background-color: lime;
+    }
+  }
