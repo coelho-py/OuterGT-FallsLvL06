@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="../Estilos/Back-Materias.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../Estilos/Back-Geral.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../JavaScript/JSim-Geral.JS"></script>
+    <title>Matérias do Curso - Tecnico ADS</title>
 </head>
 <body>
     <header>
@@ -32,6 +37,52 @@
            </nav>   
       <!--Hud Menu END-->
 </header>
-    </header>
+    <!--conteudo BEGIN-->
+    <div class="container_main">
+     <div id="container">
+         <div class="accordion">
+             <button class="accordion-header">
+                 <label> Informações HB </label>
+             </button>
+             <div class="accordion-body">
+                 <p class="tablinks" onmouseover="opentab(event, 'funcionaHB')"> • O que é o HB e como funciona?</p>
+                 <p class="tablinks" onmouseover="opentab(event, 'estruturaHB')"> • Qual á história e sua estrutura?</p>
+                 <p class="tablinks" onmouseover="opentab(event, 'matriculaHB')"> • Quantos matriculados são apresentados atualmente?</p>
+                 <p class="tablinks" onmouseover="opentab(event, 'pedagogicoHB')"> • Conheça o Pedágogico</p>
+             </div>
+         </div>
+     </div>
+     <!--manter O Link do js no body -->
+     <script src="../JavaScript/JSim-Materias.js"></script>
+ <div class="container_content">
+
+     <div id="funcionaHB" class="tabcontent">
+         <h3> • O que é o HB e como funciona?</h3>
+         <p>
+               f
+         </p>
+     </div>
+     <div id="estruturaHB" class="tabcontent">
+         <h3> • Qual á história e sua estrutura?</h3>
+         <p>
+               f
+         </p>
+     </div>
+     <div id="matriculaHB" class="tabcontent">
+         <h3> • Quantos matriculados são apresentados atualmente?</h3>
+         <p>
+               f
+         </p>
+     </div>
+     <div id="pedagogicoHB" class="tabcontent">
+         <h3> • Conheça o Pedágogico</h3>
+         <p>
+               f
+         </p>
+     </div>
+     </div>
+ </div>
+ </div>
+ <!--conteudo END-->
 </body>
 </html>
