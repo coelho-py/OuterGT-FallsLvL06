@@ -41,6 +41,11 @@ header h1{
 }
 
 .txtRev{
+    .divNome .txtInput{
+        margin-top: 1em;
+    }
+    
+    .nome{
     text-align: center;
     padding: 15px;
 }
@@ -52,6 +57,11 @@ header h1{
 
 /* inico div nome */
 .divNome{
+    .divNome .txtInput{
+        margin-top: 1em;
+    }
+    
+    .nome{
     display: flex;
 }
 
@@ -68,7 +78,16 @@ header h1{
     font-size: 20px;
 }
 
-/* fim div nome */
+/* fim div nome */<div class="containerDepoimentos">
+                <h3>Crossing Road em JS</h3>
+    
+                <p id="txtLeitura" class="texto-1">Uma das muitas coisas que você aprenderá neste curso é a Programação em JS no caso JavaScript.<br>
+                    Segue ao lado uma programação utilizando JS para programar o famoso jogo da galinha o "Crossing Road" e como ficou:</p>
+                <img  id="img-Code" src="../img/imgGameCode.png" alt="Imagem de um programa em JS">
+                    <p id="txtLeitura" class="texto-1">Resultado:</p>
+                <img  id="img-Result" src="../img/imgGameResult.png" alt="Imagem de um programa em JS">
+            </div>
+        </main>
 
 
 /* inicio div serie*/
@@ -93,7 +112,13 @@ header h1{
 
 
 /* inicio div classe */
-.divClasse{
+.divClasse{background: var(--corFundo);
+    display: flex;
+    flex-direction: column;
+    margin: 100px 100px 20em;
+    padding: 4%;
+    border: 2px solid black;
+    overflow: scroll;
     display: flex;
 }
 

@@ -1,4 +1,23 @@
+:root{
+    --corPrincipal: #2d65b9;
+    --corSecundaria: #76afe4;
+    --corBtn: #bebebe;
+    --corFundo: lightgray;
+    --corInput: white;
+}
+
 #Corpo-Reserva{
+    background-color: burlywood;
     margin: 10px;
     padding: 3px;
+}
+
+#Conteudo-reserva{
+    background: var(--corFundo);
+    display: flex;
+    flex-direction: column;
+    margin: 100px 100px 20em;
+    padding: 4%;
+    border: 2px solid black;
+    overflow: scroll;
 }
