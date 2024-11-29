@@ -9,6 +9,12 @@ a pagina precisa ta com nome index.html para que o github pages reconheca, ou pe
 
 pendências:
 
-- se precisarmos do ip da maquina para continuar com o mesmo banco de dados digitar ifconfig -I no console
+- Arrumar accordion em matérias.
 
-- criar uma page reserva de feedbacks com apenas depoimentos
+- Precisamos do ip da maquina para linkar o banco de dados e nosso codígo, e no terminal digitar "ifconfig -I".
+
+(Se opção acima não puder ser finalizada, substituir "Feedbacks" por "depoimentosReserva").
+
+- Em Depoimentos Reserva necessita ser estilizando (criar modelo para depoimentos) e arrumar (manutenção do código)
+
+- Depois de tudo finalizando, repassar todas as pages em sistema android.
