@@ -22,15 +22,3 @@
     overflow: scroll;
 }
 
-.tabcontent{
-    border-color: 2px solid black;
-    display: none;
-    margin-left: 20px;
-    padding: 5px;
-    height: 640px;
-    width: 100%;
-    box-shadow:  0 2px 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: var(--cor_fundo);
-    border-radius: 8px;
-    overflow: scroll;
-}
