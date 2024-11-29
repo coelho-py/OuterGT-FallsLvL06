@@ -98,17 +98,17 @@ h3{
 }
 /*Conteudo END*/
 
-/*Projetos BEGIN*/
+/*DIV Conteudo BEGIN*/
 .Corpo{
     Background: lightgray; 
     display: flex;
     flex-direction: column;
     height: 90.5%;
-    width: 90.5%;
+    width: 88.5%;
     margin: 1.8%;
     padding: 4%;
 }
-/*Projetos END*/
+/*DIV Conteudo END*/
 
 @media screen and (max-width: 720px) {
     .column {
