@@ -8,15 +8,20 @@
 /*Conteudo BEGIN*/
 #container {
     display: flex;
-    flex-direction: initial;
+    flex-direction: column;
     gap: 8px;
-    width: auto;
+    width: 420px;
     height: auto;
 }
 .container_main{
     display: flex;
     flex-direction: inherit;
     width: 100%;
+    Background: lightgray; 
+    height: 90.5%;
+    width: 88.5%;
+    margin: 1.8%;
+    padding: 4%;
 }
 
 .container_content{
@@ -89,7 +94,7 @@ p{
 .tabcontent{
     border-color: 2px solid black;
     display: none;
-    margin-left: 500px;
+    margin-left: 20px;
     padding: 5px;
     height: 640px;
     width: 100%;
