@@ -9,6 +9,6 @@ a pagina precisa ta com nome index.html para que o github pages reconheca, ou pe
 
 pendências:
 
-- se precisarmos do ip da maquina para continuar com o mesmo banco de dados digitar ifconfig -I no console
+- só precisamos do ip da maquina para linkar o banco de dados e nosso codígo, e no terminal digitar "ifconfig -I"
 
-- criar uma page reserva de feedbacks com apenas depoimentos
+- estilizar e arrumar o Depoimentos Reserva (Se opção acima não puder ser finalizada, substituir "Feedbacks" por "depoimentosReserva")
