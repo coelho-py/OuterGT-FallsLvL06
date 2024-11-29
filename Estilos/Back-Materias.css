@@ -1,10 +1,17 @@
+:root{
+    --cor_principal: #2d65b9;
+    --cor_secunda: #76afe4;
+    --cor_btn: #808080;
+    --cor_fundo: #ffffffd5;
+}
 
 /*Conteudo BEGIN*/
 #container {
     display: flex;
-    flex-direction: column;
+    flex-direction: initial;
     gap: 8px;
-    width: 500px;
+    width: auto;
+    height: auto;
 }
 .container_main{
     display: flex;
@@ -13,8 +20,7 @@
 }
 
 .container_content{
-    padding-left: 20px;
-    width: 71%;
+    width: 100%;
 }
 .accordion {
     background-color: #fff;
@@ -83,12 +89,12 @@ p{
 .tabcontent{
     border-color: 2px solid black;
     display: none;
-    right: auto;
-    top: 10em;
+    margin-left: 500px;
     padding: 5px;
     height: 640px;
     width: 100%;
     box-shadow:  0 2px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--cor_fundo);
     border-radius: 8px;
     overflow: scroll;
 }
