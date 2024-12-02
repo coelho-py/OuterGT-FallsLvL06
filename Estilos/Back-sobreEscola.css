@@ -107,6 +107,7 @@ h3{
     width: 88.5%;
     margin: 1.8%;
     padding: 4%;
+    border: 1px solid transparent;
     border-radius: 13px;
 }
 /*DIV Conteudo END*/
