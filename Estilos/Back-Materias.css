@@ -27,6 +27,8 @@
 
 .container_content{
     width: 100%;
+    border: 1px solid transparent;
+    border-radius: 13px;
 }
 .accordion {
     background-color: #fff;
