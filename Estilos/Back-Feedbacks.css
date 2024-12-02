@@ -40,12 +40,11 @@ header h1{
     display: flex;
 }
 
-.txtRev{
-    .divNome .txtInput{
+.divNome .txtInput{
         margin-top: 1em;
-    }
+}
     
-    .nome{
+.nome{
     text-align: center;
     padding: 15px;
 }
@@ -56,7 +55,6 @@ header h1{
 }
 
 /* inico div nome */
-.divNome{
     .divNome .txtInput{
         margin-top: 1em;
     }
@@ -78,17 +76,7 @@ header h1{
     font-size: 20px;
 }
 
-/* fim div nome */<div class="containerDepoimentos">
-                <h3>Crossing Road em JS</h3>
-    
-                <p id="txtLeitura" class="texto-1">Uma das muitas coisas que você aprenderá neste curso é a Programação em JS no caso JavaScript.<br>
-                    Segue ao lado uma programação utilizando JS para programar o famoso jogo da galinha o "Crossing Road" e como ficou:</p>
-                <img  id="img-Code" src="../img/imgGameCode.png" alt="Imagem de um programa em JS">
-                    <p id="txtLeitura" class="texto-1">Resultado:</p>
-                <img  id="img-Result" src="../img/imgGameResult.png" alt="Imagem de um programa em JS">
-            </div>
-        </main>
-
+/* fim div nome */
 
 /* inicio div serie*/
 .divSerie{
@@ -180,43 +168,13 @@ header h1{
 /*depoimentos END*/
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 720px){
     .overlay-content{margin-left: 35px;}
     .overlay {overflow-y: auto;}
-    .overlay a {font-size: 36px; margin-left: -75px;}
+    .overlay a {font-size: 36px; margin-left: -75px};}
+
     .overlay .closebtn {
         font-size: 60px;
         top: 15px;
         right: 5px;
-    }   
-
-    body{
-        width: 455px;
     }
-    
-    .escRev{
-        margin-left: 0;
-        width: 95%;
-        height: auto;
-    }
-    .feed{  
-        margin-left: -300px;
-        width: 40%;
-        height: auto;
-        margin-top: 300px;
-    }
-
-    .botaoEnvio{    
-        margin-left: -18%;
-        margin-top: 0;
-    }
-    .txtArea{   
-        width: auto;
-    }
-    body{
-        width: auto;
-    }
-    .hud{
-        width: 100%;
-    }
-  }
