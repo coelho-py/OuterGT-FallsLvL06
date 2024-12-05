@@ -32,5 +32,6 @@
 
 .Head-FeedBack{
     background-color: white;
-    width:30%;
+    width:auto;
+    height: 100%;
 }
