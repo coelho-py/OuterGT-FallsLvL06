@@ -23,7 +23,7 @@
 }
 
 .compartimento-Feedback{
-    background-color:whitesmoke;
+    background-color:blue;
     height: 100% ;
     width: 100%;
     border: 1px solid transparent;
@@ -31,6 +31,6 @@
 }
 
 .Head-FeedBack{
-    background-color: #bebebe;
+    background-color: white;
     width:30%;
 }
