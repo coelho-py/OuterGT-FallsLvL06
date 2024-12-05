@@ -6,6 +6,10 @@
     --corInput: white;
 }
 
+#cabeca{
+    margin-bottom: 14px;
+}
+
 #Corpo-Reserva{
     background-color: var(--corFundo);
     margin: 16px;
