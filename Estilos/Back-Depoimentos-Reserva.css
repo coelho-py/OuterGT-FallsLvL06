@@ -23,8 +23,14 @@
 }
 
 .compartimento-Feedback{
-    background-color:red;
+    background-color:whitesmoke;
     height: 100% ;
     width: 100%;
+    border: 1px solid transparent;
+    border-radius: 13px;
 }
 
+.Head-FeedBack{
+    background-color: #bebebe;
+    width:30%;
+}
