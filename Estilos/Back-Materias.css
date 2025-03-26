@@ -110,7 +110,7 @@ p{
 
 /*Projetos BEGIN*/
 .Corpo{
-    Background: blue; 
+    Background: lightgray; /*COR CORRIGIDA*/
     display: flex;
     flex-direction: column;
     height: 90.5%;
