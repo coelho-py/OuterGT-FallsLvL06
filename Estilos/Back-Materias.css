@@ -18,7 +18,7 @@
     display: flex;
     flex-direction: inherit;
     width: 100%;
-    Background: --cor_principal; 
+    Background-color: lightgray; 
     height: 90.5%;
     width: 88.5%;
     margin: 1.8%;
@@ -31,7 +31,7 @@
     border-radius: 13px;
 }
 .accordion {
-    background-color: #fff;
+    background-color: lightgray;
     border-radius: 8px;
     padding: 12px;
     cursor: pointer;
@@ -57,7 +57,7 @@
 }
 
 .accordion-body {
-    color: #444;
+    color: lightgray;
     font-size: 18px;
     opacity: 0;
     height: 0;
