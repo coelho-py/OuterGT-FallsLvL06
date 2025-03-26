@@ -57,7 +57,7 @@
 }
 
 .accordion-body {
-    color: lightgray;
+    color: lightgray; /* Trocar de cor*/
     font-size: 18px;
     opacity: 0;
     height: 0;
