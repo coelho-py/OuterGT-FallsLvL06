@@ -41,6 +41,10 @@
     
 }
 
+.Comentario{
+    border-radius: 3px solid black;
+}
+
 
 .card:hover {
     transform: rotateY(-180deg);
