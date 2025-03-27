@@ -45,6 +45,15 @@
     border-radius: 3px solid black;
 }
 
+.card {
+  position: relative;
+  width: 200px;
+  height: 254px;
+  color: #fff;
+  transition: 2s;
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
 
 .card:hover {
     transform: rotateY(-180deg);
