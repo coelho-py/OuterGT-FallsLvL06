@@ -227,12 +227,67 @@ a{
 
 /*img BEGIN*/
 
-#img-Code{ /*referente á img's com codigos*/
-  width: 60%;
+#img{ /*referente á img's com resultados ou img's soltas*/
+  width: 30%;
 }
 
-#img-Result{ /*referente á img's com resultados ou img's soltas*/
-  width: 45%;
+.imgCentro {
+* {
+  box-sizing: border-box;
+}
+
+.settingsLinha {margin: 0 75px;}
+
+.settingsLinha:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.settingsLinhaSair {margin: 0 75px;}
+
+.settingsLinhaSair:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Coloca 4 colunas lado a lado(mas quero so 3 por linha) */
+.settingsColuna {
+  float: left;
+  margin-left: 6%;
+  width: 25%;
+  padding: 8px 8px;
+  padding-top: 50px;
+}
+.settingsColunaSair {
+  float: left;
+  margin-left: 37%;
+  width: 25%;
+  padding: 8px 8px;
+  padding-bottom: 50px;
+}
+
+/* Colunas Responsivas */
+@media screen and (max-width: 600px) {
+  .settingsColuna {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Estilo dos proprios cards */
+.settingsCard {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f6f1f1;
+}
+
+.cardTXT {
+    text-align: center;
+}
 }
 
 @media screen and (max-width: 720px) {
