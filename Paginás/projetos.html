@@ -76,7 +76,16 @@
 
     <blockquote>
         <div class="projetos-py">
-            f
+            <h1>Executar Caminho no CMD</h1>
+            <form method="post" action="/executar">
+                <input type="text" name="caminho" placeholder="Digite o comando ou caminho" required>
+                <button type="submit">Executar</button>
+            </form>
+
+            {% if resultado %}
+                <h2>Resultado:</h2>
+                <pre>{{ resultado }}</pre>
+            {% endif %}
         </div>
     </blockquote>
 </div>
