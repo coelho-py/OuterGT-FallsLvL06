@@ -3,28 +3,28 @@
     --cor_secunda: #76afe4;
     --cor_btn: #808080;
     --cor_fundo: #ffffffaf;
-}
+  }
 
-body{
-  background-color: var(--cor_fundo);
-}
+  body{
+    background-color: var(--cor_fundo);
+  }
 
-.Corpo{
-  display: flex;
-  flex-direction: column;
-  height: 90.5%;
-  width: 88.5%;
-  margin: 1.8%;
-  padding: 4%;
-}
+  .Corpo{
+    display: flex;
+    flex-direction: column;
+    height: 90.5%;
+    width: 88.5%;
+    margin: 1.8%;
+    padding: 4%;
+  }
 
 /*Carrosel BEGIN*/
-.containerCsl{
+  .containerCsl{
     height: 650px;
     top: 0;
-}
+  }
 
-.carrosel {
+  .carrosel {
     margin-top: 6px;
     padding: 0;
     display: flex;    
@@ -32,43 +32,43 @@ body{
     width: 100%;
     height: 700px;
     overflow: hidden;
-}
+  }
 
-.slides{
+  .slides{
     display: flex;
-}
+  }
 
-.slides input{
+  .slides input{
     display: none;
-}
+  }
 
-.slide {
+  .slide {
     width: 20%;
     transition: 1.2s; 
-}
+  }
 
-.slide img{
+  .slide img{
     width: 2400px;
     height: 800px;
-}
+  }
 
-#radio1:checked ~ .first{
+  #radio1:checked ~ .first{
     margin-left: 40%;
-}
+  }
 
-#radio2:checked ~ .first{
+  #radio2:checked ~ .first{
     margin-left: 20%;
-}
+  }
 
-#radio3:checked ~ .first{
+  #radio3:checked ~ .first{
     margin-left: 0%;
-}
+  }
 
-#radio4:checked ~ .first{
+  #radio4:checked ~ .first{
     margin-left: -20%;
-}
+  }
 
-.auto-navi {
+  .auto-navi {
     position: fixed;
     display: flex;
     width: 800px;
@@ -76,37 +76,37 @@ body{
     align-items: center;
     margin-left: 1580px;
     margin-top: 460px;
-}
+  }
 
-.auto-navi div{
+  .auto-navi div{
     border: 2px solid var(--cor_principal);
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
-}
+  }
 
-.auto-navi div:not(:last-child){
-    margin-right: 40px;
-}
+  .auto-navi div:not(:last-child){
+      margin-right: 40px;
+  }
 
-#radio1:checked ~.auto-btn-1{
-    background-color: var(--cor_fundo);
-}
+  #radio1:checked ~.auto-btn-1{
+      background-color: var(--cor_fundo);
+  }
 
-#radio2:checked ~.auto-btn-2{
-    background-color: var(--cor_fundo);
-}
+  #radio2:checked ~.auto-btn-2{
+      background-color: var(--cor_fundo);
+  }
 
-#radio3:checked ~.auto-btn-3{
-    background-color: var(--cor_fundo);
-}
+  #radio3:checked ~.auto-btn-3{
+      background-color: var(--cor_fundo);
+  }
 
-#radio4:checked ~.auto-btn-4{
-    background-color: var(--cor_fundo);
-}
+  #radio4:checked ~.auto-btn-4{
+      background-color: var(--cor_fundo);
+  }
 
 /* bloco */
-html {
+  html {
     box-sizing: border-box;
   }
   
@@ -185,35 +185,35 @@ html {
     cursor: pointer;
   }
 /* sub HUD BEGIN */
-ul.subHUD {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
+  ul.subHUD {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
 
-li.subHUDl {
-  float: left;
-}
+  li.subHUDl {
+    float: left;
+  }
 
-li.subHUDl a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  li.subHUDl a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
-li.subHUDr {
-  float:right
-}
+  li.subHUDr {
+    float:right
+  }
 
-li.subHUDr a:hover:not(.active) {
-  background-color: #111;
-}
+  li.subHUDr a:hover:not(.active) {
+    background-color: #111;
+  }
 
-.active {
-  background-color: #04AA6D;
-}
+  .active {
+    background-color: #04AA6D;
+  }
 /* sub HUD END */
