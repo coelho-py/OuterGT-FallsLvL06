@@ -184,3 +184,36 @@ html {
     border: 2px 6px 8px 2px;
     cursor: pointer;
   }
+/* sub HUD BEGIN */
+ul.subHUD {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.subHUDl {
+  float: left;
+}
+
+li.subHUDl a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.subHUDr {
+  float:right
+}
+
+li.subHUDr a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+/* sub HUD END */

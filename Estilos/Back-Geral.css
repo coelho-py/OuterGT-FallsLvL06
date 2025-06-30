@@ -85,14 +85,14 @@ textarea{
     text-decoration: none;
   }
 
-li{
+li.hudPrincipal{
     list-style: none; 
     position: fixed;
     right: 3em;
     top: 2em;
   }
 
-li a{
+li.hudPrincipal a{
     color: var(--cor_secunda);
     font-size: 18px;
     font-weight: bold;
